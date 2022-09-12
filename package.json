@@ -8,6 +8,7 @@
     "test": "mocha",
     "develop": "ts-node src/index.ts",
     "makeTestData": "ts-node src/makeTestData/index.ts",
+    "naiveSync": "ts-node src/naiveSync.ts",
     "build": "pnpm test && eslint && tsc",
     "prepare": "husky install"
   },
