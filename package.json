@@ -9,6 +9,7 @@
     "develop": "ts-node src/index.ts",
     "makeTestData": "ts-node src/makeTestData/index.ts",
     "naiveSync": "ts-node src/naiveSync.ts",
+    "naiveAsync": "ts-node src/naiveAsync.ts",
     "build": "pnpm test && eslint && tsc",
     "prepare": "husky install"
   },
