@@ -12,6 +12,7 @@
     "naiveAsync": "ts-node src/naiveAsync.ts",
     "readToBuffer": "ts-node src/readToBuffer.ts",
     "basicStreamRead": "ts-node src/basicStreamRead",
+    "modernStreamRead": "ts-node src/modernStreamRead",
     "build": "pnpm test && eslint && tsc",
     "prepare": "husky install"
   },
@@ -23,6 +24,7 @@
     "@tsconfig/node16-strictest-esm": "1.0.3",
     "@types/mocha": "9.1.1",
     "@types/node": "16",
+    "@types/split2": "3.2.1",
     "@typescript-eslint/eslint-plugin": "5.36.2",
     "@typescript-eslint/parser": "5.36.2",
     "eslint": "8.23.0",
@@ -38,5 +40,8 @@
   "engines": {
     "node": ">=16",
     "pnpm": ">=7"
+  },
+  "dependencies": {
+    "split2": "4.1.0"
   }
 }

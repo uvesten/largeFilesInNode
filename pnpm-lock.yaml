@@ -5,6 +5,7 @@ specifiers:
   '@tsconfig/node16-strictest-esm': 1.0.3
   '@types/mocha': 9.1.1
   '@types/node': '16'
+  '@types/split2': 3.2.1
   '@typescript-eslint/eslint-plugin': 5.36.2
   '@typescript-eslint/parser': 5.36.2
   eslint: 8.23.0
@@ -13,15 +14,20 @@ specifiers:
   lint-staged: 13.0.3
   mocha: 10.0.0
   prettier: 2.7.1
+  split2: 4.1.0
   ts-node: 10.9.1
   tslib: 2.4.0
   typescript: 4.8.3
+
+dependencies:
+  split2: 4.1.0
 
 devDependencies:
   '@faker-js/faker': 7.5.0
   '@tsconfig/node16-strictest-esm': 1.0.3
   '@types/mocha': 9.1.1
   '@types/node': 16.11.58
+  '@types/split2': 3.2.1
   '@typescript-eslint/eslint-plugin': 5.36.2_2l2r3i3lm6jysqd4ac3ql4n2mm
   '@typescript-eslint/parser': 5.36.2_itqs5654cmlnjraw6gjzqacppi
   eslint: 8.23.0
@@ -156,6 +162,12 @@ packages:
 
   /@types/node/16.11.58:
     resolution: {integrity: sha512-uMVxJ111wpHzkx/vshZFb6Qni3BOMnlWLq7q9jrwej7Yw/KvjsEbpxCCxw+hLKxexFMc8YmpG8J9tnEe/rKsIg==}
+    dev: true
+
+  /@types/split2/3.2.1:
+    resolution: {integrity: sha512-7uz3yU+LooBq4yNOzlZD9PU9/1Eu0rTD1MjQ6apOVEoHsPrMUrFw7W8XrvWtesm2vK67SBK9AyJcOXtMpl9bgQ==}
+    dependencies:
+      '@types/node': 16.11.58
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.36.2_2l2r3i3lm6jysqd4ac3ql4n2mm:
@@ -1468,6 +1480,11 @@ packages:
       ansi-styles: 6.1.0
       is-fullwidth-code-point: 4.0.0
     dev: true
+
+  /split2/4.1.0:
+    resolution: {integrity: sha512-VBiJxFkxiXRlUIeyMQi8s4hgvKCSjtknJv/LVYbrgALPwf5zSKmEwV9Lst25AkvMDnvxODugjdl6KZgwKM1WYQ==}
+    engines: {node: '>= 10.x'}
+    dev: false
 
   /string-argv/0.3.1:
     resolution: {integrity: sha512-a1uQGz7IyVy9YwhqjZIZu1c8JO8dNIe20xBmSS6qu9kv++k3JGzCVmprbNN5Kn+BgzD5E7YYwg1CcjuJMRNsvg==}
