@@ -10,6 +10,7 @@
     "makeTestData": "ts-node src/makeTestData/index.ts",
     "naiveSync": "ts-node src/naiveSync.ts",
     "naiveAsync": "ts-node src/naiveAsync.ts",
+    "readToBuffer": "ts-node src/readToBuffer.ts",
     "build": "pnpm test && eslint && tsc",
     "prepare": "husky install"
   },
