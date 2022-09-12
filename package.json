@@ -1,0 +1,36 @@
+{
+  "name": "data_processor",
+  "version": "1.0.0",
+  "description": "Parse files and output interesting data",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "develop": "ts-node src/index.ts",
+    "build": "pnpm test && eslint && tsc",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "7.5.0",
+    "@tsconfig/node16-strictest-esm": "1.0.3",
+    "@types/node": "16",
+    "@typescript-eslint/eslint-plugin": "5.36.2",
+    "@typescript-eslint/parser": "5.36.2",
+    "eslint": "8.23.0",
+    "eslint-config-prettier": "8.5.0",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "mocha": "10.0.0",
+    "prettier": "2.7.1",
+    "ts-node": "10.9.1",
+    "tslib": "2.4.0",
+    "typescript": "4.8.3"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  }
+}
