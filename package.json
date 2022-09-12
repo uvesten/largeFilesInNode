@@ -7,6 +7,7 @@
   "scripts": {
     "test": "mocha",
     "develop": "ts-node src/index.ts",
+    "makeTestData": "ts-node src/makeTestData/index.ts",
     "build": "pnpm test && eslint && tsc",
     "prepare": "husky install"
   },
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@faker-js/faker": "7.5.0",
     "@tsconfig/node16-strictest-esm": "1.0.3",
+    "@types/mocha": "9.1.1",
     "@types/node": "16",
     "@typescript-eslint/eslint-plugin": "5.36.2",
     "@typescript-eslint/parser": "5.36.2",
