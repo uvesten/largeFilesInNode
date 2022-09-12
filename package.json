@@ -11,6 +11,7 @@
     "naiveSync": "ts-node src/naiveSync.ts",
     "naiveAsync": "ts-node src/naiveAsync.ts",
     "readToBuffer": "ts-node src/readToBuffer.ts",
+    "basicStreamRead": "ts-node src/basicStreamRead",
     "build": "pnpm test && eslint && tsc",
     "prepare": "husky install"
   },
